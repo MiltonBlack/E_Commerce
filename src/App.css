@@ -224,5 +224,7 @@ form {
   cursor: pointer;
 }
 .span{
-  color:white;
+  color:blue;
+  font-weight: bolder;
+  padding:0 5px;
 }
