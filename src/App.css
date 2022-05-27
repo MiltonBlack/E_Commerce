@@ -131,7 +131,7 @@ button {
   border:1px solid blue;
   height:30px;
   font-weight: bold;
-  font-size:large
+  font-size:large;
 }
 .btn{
   position: relative;

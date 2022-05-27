@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import { FaGithub, FaFacebook, FaTwitter, FaInstagram, FaTwitch, FaDiscord, FaYoutube } from "react-icons/fa"
 
 export default function Footer() {
     return (
@@ -12,13 +13,13 @@ export default function Footer() {
                 </div>
             <div>
                 <span  className="heading">SOCIAL MEDIA</span><br/>
-                Facebook<br/>
-                Twitter<br/>
-                GitHub<br/>
-                Instagram<br/>
-                twitch<br/>
-                Discord<br/>
-                Youtube<br/>
+                <FaFacebook/>Facebook<br/>
+                <FaTwitter/>Twitter<br/>
+                <FaGithub/>GitHub<br/>
+                <FaInstagram/>Instagram<br/>
+                <FaTwitch/>twitch<br/>
+                <FaDiscord/>Discord<br/>
+                <FaYoutube/>Youtube<br/>
             </div>
             <div>
                 <span className="heading">USEFUL LINKS</span><br/>
