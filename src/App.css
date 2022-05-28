@@ -53,10 +53,11 @@ input {
   color:white;
   display: block;
   background: rgba(17, 24, 23, 0.747);
-  height:50px;
+  height:70px;
   width:70px;
   padding:3px;
   border-radius: 3rem;
+  text-align: center;
 }
 .footer {
   display: flex;

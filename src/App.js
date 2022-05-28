@@ -26,7 +26,7 @@ function App() {
       {/* <Button 
         remove={remove}
         add={add}
-        onClick={count}
+        counter={count}
       /> */}
     </div>
   );

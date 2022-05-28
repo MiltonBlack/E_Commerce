@@ -13,13 +13,13 @@ export default function Footer() {
                 </div>
             <div>
                 <span  className="heading">SOCIAL MEDIA</span><br/>
-                <FaFacebook/>Facebook<br/>
-                <FaTwitter/>Twitter<br/>
-                <FaGithub/>GitHub<br/>
-                <FaInstagram/>Instagram<br/>
-                <FaTwitch/>twitch<br/>
-                <FaDiscord/>Discord<br/>
-                <FaYoutube/>Youtube<br/>
+                <FaFacebook size="1.2rem" color="blue"/> Facebook<br/>
+                <FaTwitter size="1rem" color="blue"/> Twitter<br/>
+                <FaGithub size="1rem" /> GitHub<br/>
+                <FaInstagram size="1rem" color="red"/> Instagram<br/>
+                <FaTwitch size="1rem" color="purple"/> Twitch<br/>
+                <FaDiscord size="1rem" color="purple"/> Discord<br/>
+                <FaYoutube size="1.1rem" color="red"/> Youtube<br/>
             </div>
             <div>
                 <span className="heading">USEFUL LINKS</span><br/>
