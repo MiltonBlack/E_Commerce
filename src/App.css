@@ -1,5 +1,6 @@
 body {
- background: black;
+ background: white
+ /* black; */
 }
 
 .Header {
@@ -17,7 +18,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width:100%;
   box-shadow: 2px 2px 7px;
-  height:35vh;
+  height:25vh;
   position:relative;
 }
 .title {

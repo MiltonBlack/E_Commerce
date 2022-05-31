@@ -10,7 +10,7 @@ export default function Header(props) {
                 <div className="title"><span>GAME </span>HUB</div>
                 <div className="search"><input type="search" /><button className="btn">Search</button></div>
                 <div className="list">
-                    <div className="listClass"><GiGamepad size="2rem" color="rgb(8, 247, 8)"/><br/>PLAY GAMES</div>
+                    <div className="listClass">cc<br/>PLAY GAMES</div>
                     <div className="listClass"><GiShoppingBag size="2rem" color="rgb(8, 247, 8)"/><br/>BUY GAMES</div>
                     <div className="listClass"><GiShoppingCart size="2rem" color="rgb(8, 247, 8)"/><br/>CART</div>
                     <div className="listClass"><FaSignInAlt size="2rem" color="rgb(8, 247, 8)"/><br/>LOGIN</div>

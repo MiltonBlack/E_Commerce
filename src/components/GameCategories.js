@@ -3,6 +3,9 @@ import GameCategory from "./GameCategory";
 
 
 export default function GameCategories() {
+
+
+    
     return(
         <div>
             <div className="categories">
