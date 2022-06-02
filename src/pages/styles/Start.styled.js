@@ -11,12 +11,11 @@ align-items: center;
 justify-content: space-between;
 margin:2px;
 padding:15px;
-position:fixed;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 width:100%;
 box-shadow: 2px 2px 7px;
 height:5vh;
-position:relative;
+
 `
 
 
@@ -32,23 +31,29 @@ export const Title = styled.div`
     `
 export const Options = styled.ul`
     float:right;
+    margin-right:20px;
+    top:5px;
+    position:relative;
 
 `
 
 export const List = styled.li`
-display: inline;
+display: inline-block;
 align-items: center;
 justify-content: space-between;
 margin-right:30px;
-margin-top:15px;
+margin-top:1px;
 font-size: medium;
 color:white;
 height:30px;
+width:85px;
 padding:4px;
 background: rgba(17, 24, 23, 0.747);
 text-align:center;
+border-radius:1em;
 
 &:hover {background:black;
         border: 1px solid white;
-        cursor:pointer;}
+        cursor:pointer;
+      transition: .1s ease-in}
 `

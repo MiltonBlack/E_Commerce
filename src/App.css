@@ -1,5 +1,5 @@
 body {
- background: white
+ background: black;
  /* black; */
 }
 
@@ -88,7 +88,6 @@ input {
   align-items: center;
   justify-content: center;
   width:150px;
-  
 }
 .cardMain {
   display:flex;
@@ -99,17 +98,19 @@ input {
   background:linear-gradient(rgba(9, 9, 248, 0.5), white); 
   padding: 5px;
   border-radius: 1rem;
+  height:230px;
 }
 .cardMain:hover{
   padding:2px;
 }
 .category {
   display:flex;
+  flex-wrap: wrap;
   align-items: center;
   background-color: rgb(12, 33, 218);
   border:1px red;
   border-radius: 2px;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 .categories {
  display: flex;

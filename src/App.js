@@ -48,7 +48,7 @@ function App() {
             <List>Login</List></Link>
           <Link to="/register">
             <List>Register</List></Link>
-            <div className="listClass"><GiShoppingCart size="2rem" color="rgb(8, 247, 8)"/><br/>CART</div>
+            <List >CART</List>
         </Options>
         </Start>
      </nav>

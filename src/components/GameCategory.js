@@ -33,6 +33,7 @@ export default function GameCategory() {
     return(
         <div>
             <div className="category" >
+                <p className="text1">Action Games</p>
                {pcList}
             </div>
         </div>
