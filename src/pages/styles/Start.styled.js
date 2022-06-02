@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Start = styled.div`
 background: rgba(2,2,2,0,3);
 background-image: 
-  linear-gradient(to right, rgba(0, 0, 0, 0), rgba(9, 9, 248, 0.925)), 
+  linear-gradient(to right, black, rgba(9, 9, 248, 0.925)), 
    url("./components/Gta5.jpg");
 display:flex;
 flex-direction: row;
@@ -15,7 +15,7 @@ position:fixed;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 width:100%;
 box-shadow: 2px 2px 7px;
-height:10vh;
+height:5vh;
 position:relative;
 `
 
@@ -32,22 +32,23 @@ export const Title = styled.div`
     `
 export const Options = styled.div`
     display: flex;
+    margin-top:10px;
 `
 
 export const List = styled.div`
-display: flex;
-flex-direction:row;
+display: inline;
 align-items: center;
-justify-content: space-around;
+justify-content: space-between;
 margin-right:30px;
+margin-top:15px;
 font-size: medium;
 color:white;
+height:30px;
+padding:4px;
 background: rgba(17, 24, 23, 0.747);
-height:50px;
-width:80px;
-padding:3px;
-border-radius: 3rem;
+text-align:center;
 
 &:hover {background:black;
+        border: 1px solid white;
         cursor:pointer;}
 `
