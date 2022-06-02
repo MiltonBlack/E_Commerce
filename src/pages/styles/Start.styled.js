@@ -30,12 +30,12 @@ export const Title = styled.div`
   text-shadow: 2px 3px 4px;
   font-size:35px;
     `
-export const Options = styled.div`
-    display: flex;
-    margin-top:10px;
+export const Options = styled.ul`
+    float:right;
+
 `
 
-export const List = styled.div`
+export const List = styled.li`
 display: inline;
 align-items: center;
 justify-content: space-between;
