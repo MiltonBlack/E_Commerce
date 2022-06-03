@@ -1,6 +1,5 @@
 import React, {useContext, useState} from "react";
 import Game from "./Game";
-import {useParams} from 'react-router-dom'
 import { DataContext } from './DataProvider';
 
 export default function GameCategory() {
@@ -13,8 +12,6 @@ export default function GameCategory() {
     //                  />
     //     }
     //     )
-   
-        // const {genre} = useParams();
         const [games, setGames] = useContext(DataContext)
         // Filtered only action games through the games array from DataContext into the Category array
         // and maped through the Category array to retrun the filtered elements.
@@ -33,7 +30,7 @@ export default function GameCategory() {
     return(
         <div>
             <div className="category" >
-                <p className="text1">Action Games</p>
+                <p className="text2">Action Games</p>
                {pcList}
             </div>
         </div>

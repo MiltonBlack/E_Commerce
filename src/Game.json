@@ -115,7 +115,7 @@
         "id": 17,
         "img": "pcCover/nfs-niLimits.jpg",
         "name": "Need For Speed No Limits",
-        "genre": "Action",
+        "genre": "Racing",
         "year" : 2005
     },
     {
@@ -129,6 +129,55 @@
         "id": 19,
         "img": "pcCover/sleeping-dogs.jpg",
         "name": "Sleeping Dogs",
+        "genre": "Action",
+        "year" : 2005
+    },
+    {
+        "id": 20,
+        "img": "pcCover/nfs-hpr.jpg",
+        "name": "Need For Speed Hot Pursuit Remastered",
+        "genre": "Racing",
+        "year" : 2005
+    },
+    {
+        "id": 21,
+        "img": "pcCover/nfs-mw.jpg",
+        "name": "Need For Speed Most Wanted",
+        "genre": "Racing",
+        "year" : 2005
+    },
+    {
+        "id": 23,
+        "img": "pcCover/nfs-payback.jpg",
+        "name": "Need For Speed Payback",
+        "genre": "Racing",
+        "year" : 2005
+    },
+    {
+        "id": 24,
+        "img": "pcCover/nfs-carbon.png",
+        "name": "Need For Speed Carbon",
+        "genre": "Racing",
+        "year" : 2005
+    },
+    {
+        "id": 25,
+        "img": "pcCover/Need-for-Speed-heat.jpg",
+        "name": "Need For Speed Heat",
+        "genre": "Racing",
+        "year" : 2005
+    },
+    {
+        "id": 26,
+        "img": "pcCover/nfs-rivals.webp",
+        "name": "Need For Speed Rivals",
+        "genre": "Racing",
+        "year" : 2005
+    },
+    {
+        "id": 21,
+        "img": "pcCover/Need-for-Speed-2022.jpg",
+        "name": "Need For Speed 2022",
         "genre": "Racing",
         "year" : 2005
     }
