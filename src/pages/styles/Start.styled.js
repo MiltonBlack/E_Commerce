@@ -44,16 +44,16 @@ justify-content: space-between;
 margin-right:30px;
 margin-top:1px;
 font-size: medium;
+font-weight:bold;
 color:white;
 height:30px;
-width:85px;
+width:90px;
 padding:4px;
 background: rgba(17, 24, 23, 0.747);
 text-align:center;
 border-radius:1em;
 
 &:hover {background:black;
-        border: 1px solid white;
         cursor:pointer;
       transition: .1s ease-in}
 `

@@ -3,15 +3,7 @@ import Game from "./Game";
 import { DataContext } from './DataProvider';
 
 export default function GameCategory() {
-    // const pcGames = GAMES.map(gam =>
-    //     {
-    //         return <Game
-    //                     key={gam.id}
-    //                     img={gam.img}
-    //                     name={gam.name}
-    //                  />
-    //     }
-    //     )
+   
         const [games, setGames] = useContext(DataContext)
         // Filtered only action games through the games array from DataContext into the Category array
         // and maped through the Category array to retrun the filtered elements.
@@ -30,7 +22,7 @@ export default function GameCategory() {
     return(
         <div>
             <div className="category" >
-                <p className="text2">Action Games</p>
+                {/* <h1 className="text2">Action Games</h1> */}
                {pcList}
             </div>
         </div>

@@ -13,6 +13,7 @@ import { FaHome, FaGamepad, FaAccessibleIcon, FaLock } from 'react-icons/fa';
 import { GiShoppingCart, GiShoppingBag, GiGamepad } from "react-icons/gi"
 import Details from './components/Details';
 import Game from './components/Game';
+import Racing from './components/Racing';
 
 
 // import Button from './components/AddToCart';
@@ -41,13 +42,13 @@ function App() {
         <div className="search"><input type="search" /><button className="btn">Search</button></div>
         <Options>
           <Link to="/">
-            <List>Home</List></Link>
+            <List>HOME</List></Link>
           <Link to="/gamehub">
-            <List>Game Shop</List></Link>
+            <List>GAME-HUB</List></Link>
           <Link to="/login"> 
-            <List>Login</List></Link>
+            <List>LOGIN</List></Link>
           <Link to="/register">
-            <List>Register</List></Link>
+            <List>REGISTER</List></Link>
             <List >CART</List>
         </Options>
         </Start>
@@ -59,6 +60,8 @@ function App() {
        <Route path="/login" element={<Login/>}/>
        <Route path="/gamehub" element={data} />
        <Route path="/gamehub/game" element={<Game/>}/>
+       <Route path="/gamehub/action" element={<GameCategory/>}/>
+       <Route path="/gamehub/racing" element={<Racing/>}/>
        <Route path="/gamehub/game:id" element={<Details/>} />
      </Routes>
      <Footer/>
