@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import { DataProvider } from './components/DataProvider'; 
+import { DataContext } from './components/DataProvider';
 import './App.css';
 import Footer from './components/Footer';
 import Section from './components/Section';
@@ -16,18 +17,10 @@ import Game from './components/Game';
 import Racing from './components/Racing';
 
 
-// import Button from './components/AddToCart';
-
 function App() {
-  // const [count, setCount] = useState(0)
 
-  //   function remove() {
-  //       setCount(prevCount => prevCount - 1)
-  //   }
+    const [games, setGames] = useContext(DataContext);
 
-  //   function add() {
-  //       setCount(prevCount => prevCount + 1)
-  //   }
     const data = <div className="App">
                   <marquee>GAME HUB Inc. Developed by Milton Azibapu, Find and purchase PC Games suitable for you</marquee>
                   <Section />
@@ -59,10 +52,9 @@ function App() {
        <Route path="/register" element={<Register/>}/>
        <Route path="/login" element={<Login/>}/>
        <Route path="/gamehub" element={data} />
-       <Route path="/gamehub/game" element={<Game/>}/>
        <Route path="/gamehub/action" element={<GameCategory/>}/>
+       <Route path ={`/gamehub/action/${games.id}`}/>
        <Route path="/gamehub/racing" element={<Racing/>}/>
-       <Route path="/gamehub/game:id" element={<Details/>} />
      </Routes>
      <Footer/>
    </Router>

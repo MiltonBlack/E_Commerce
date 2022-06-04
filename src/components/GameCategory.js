@@ -13,14 +13,14 @@ export default function GameCategory() {
             return gameC.genre === "Action"
         })
         console.log(Category)
-        // console.log(games)
+        console.log(games)
         const pcList = Category.map(item => {
             return <Game key={item.id} name={item.name} img={item.img}/>
         })
         // console.log(pcList)
 
     return(
-        <div>
+        <div><p className="text2">Action games</p>
             <div className="category" >
                 {/* <h1 className="text2">Action Games</h1> */}
                {pcList}

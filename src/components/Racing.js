@@ -16,9 +16,8 @@ function Racing() {
     })
 
   return (
-    <div>Racing
+    <div><p className="text2">Racing games</p>
          <div className="category" >
-                <p className="text2">Racing games</p>
                {raceList}
             </div>
     </div>
