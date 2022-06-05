@@ -40,4 +40,4 @@ export const Card = styled.div`
 export const Advert = styled.img`
     width:100%;
     height:25vh;
-`
+    `

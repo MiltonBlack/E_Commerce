@@ -1,10 +1,10 @@
-import React, {useContext, useState} from "react";
+import React, {useContext} from "react";
 import Game from "./Game";
 import { DataContext } from './DataProvider';
 
 export default function GameCategory() {
    
-        const [games, setGames] = useContext(DataContext)
+        const [games] = useContext(DataContext)
         // Filtered only action games through the games array from DataContext into the Category array
         // and maped through the Category array to retrun the filtered elements.
 
@@ -15,7 +15,7 @@ export default function GameCategory() {
         console.log(Category)
         console.log(games)
         const pcList = Category.map(item => {
-            return <Game key={item.id} name={item.name} img={item.img}/>
+            return <Game key={item.id} name={item.name} img={item.img} />
         })
         // console.log(pcList)
 

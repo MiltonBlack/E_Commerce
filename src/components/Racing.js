@@ -12,7 +12,7 @@ function Racing() {
     })
     console.log(racin)
     const raceList = racin.map(rac => {
-        return <Game key={rac.id} name={rac.name} img={rac.img}/>
+        return <Game key={rac.id} name={rac.name} img={rac.img} genre={rac.genre}/>
     })
 
   return (

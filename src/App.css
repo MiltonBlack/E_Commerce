@@ -1,5 +1,5 @@
 body {
- background: black;
+ background:black;
  /* black; */
 }
 
@@ -7,7 +7,7 @@ body {
   background: rgba(2,2,2,0,3);
   background-image: 
     linear-gradient(to right, rgba(0, 0, 0, 0), rgba(9, 9, 248, 0.925)), 
-     url("./components/Gta5.jpg");
+     url("Gta5.jpg");
   display:flex;
   flex-direction: row;
   align-items: center;
@@ -19,7 +19,6 @@ body {
   width:100%;
   box-shadow: 2px 2px 7px;
   height:25vh;
-  position:relative;
 }
 .title {
   margin:15px;
@@ -33,12 +32,20 @@ input {
   border-radius:4rem 0 0 4rem;
   padding-left:20px;
   padding-right:20px;
+
+  @media(max-width:800px) {
+    height:30px;
+  }
 }
 .search {
   border-radius: 4em;
   margin-right: 20px;
   margin-left:20px;
   margin-top: 0;
+
+  @media(max-width:800px) {
+
+  }
 }
 .list {
   display:flex;
@@ -162,6 +169,7 @@ marquee {
   color:white;
   font-weight: bolder;
   height: 35px;
+  
 }
 /* ::-webkit-scrollbar-button{
   background: white;
@@ -234,4 +242,11 @@ form {
 .text2 {
   color:greenyellow;
   font-weight: bolder;
+}
+
+.times {
+  top:0px;
+  position:absolute;
+  right:5px;
+  margin:5px;
 }

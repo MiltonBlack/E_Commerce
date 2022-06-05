@@ -1,9 +1,7 @@
 import React, { useContext } from "react";
-import GameCategory from "./GameCategory";
 import { DataContext } from "./DataProvider";
-import Racing from "./Racing";
 import { Boxed, Flex, Text, Info, Card, Advert } from '../pages/styles/Section.styled'
-import {Route, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import Pic from "../pages/resident-evil-9.webp"
 import {FaFlagCheckered, FaFistRaised, FaGamepad} from "react-icons/fa"
 
@@ -11,7 +9,7 @@ import {FaFlagCheckered, FaFistRaised, FaGamepad} from "react-icons/fa"
 export default function GameCategories() {
 
 
-    const [games, setGames] = useContext(DataContext)
+    const [games] = useContext(DataContext)
     console.log(games)
 
     
@@ -39,13 +37,6 @@ export default function GameCategories() {
                 </Link>
             </Flex>
             <Advert src={Pic}/>
-{/* 
-            <div className="categories">
-
-
-                <GameCategory />
-                <Racing/>
-            </div> */}
         </Boxed>
     )
 }
